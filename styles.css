@@ -12,7 +12,7 @@ background-color: black;
 .container{
     width: 100%;  
    background-color: hsl(215.63deg 55.17% 11.37%); 
-        
+        color: white;
     display: flex;
     justify-content: center;
     align-items: center;
