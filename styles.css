@@ -11,9 +11,8 @@ background-color: black;
 
 .container{
     width: 100%;  
-    /* background-color: hsl(215.63deg 55.17% 11.37%); */
-    background-color: blue;
-      
+   background-color: hsl(215.63deg 55.17% 11.37%); 
+        
     display: flex;
     justify-content: center;
     align-items: center;
