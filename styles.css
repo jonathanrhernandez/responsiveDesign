@@ -1,0 +1,130 @@
+html{
+background-color: black;
+} 
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+} 
+
+.container{
+    width: 100%;  
+    background-color: hsl(215.63deg 55.17% 11.37%);
+      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 100vh;
+    overflow: auto;    
+}
+.card{
+    background-color: hsl(214.29deg 50% 16.47%);
+    border-radius: 15px;
+    max-width: 300px;
+    padding: 20px;
+}
+.card > img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.card h2 {
+    color: white;    
+    margin-bottom: 15px;
+}
+.card > p {
+    color: rgba(255, 255, 255, 0.702);
+    line-height: 22px;
+}
+.padre{    
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    border-bottom: 1px solid rgba(211,211,211,0.264);
+    padding-bottom: 20px;
+    
+}
+.boxInfo{
+    display: flex;
+    gap: 8px;
+    font-weight: bolder;
+    align-items: center;    
+}
+.infoLeft{
+    color: aqua;
+}
+.infoRight{
+    color: rgba(255, 255, 255, 0.702);
+}
+.cardFooter{
+   
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgba(255, 255, 255, 0.702);
+}
+.cardFooter img {
+    width: 35px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.cardFooter a {
+    color: white;
+}
+@media screen and (max-width:830px) {
+   .container{
+    flex-direction: column;
+    height: auto;
+   }
+   .card{
+    max-width: 500px;
+    margin: 30px 0;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container{
+    width: 100vw;
+    height: 100vh;
+    background-color: blueviolet;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 768px) {
+    .container{
+        background-color: orange;
+        color: orangered;
+    }
+}
+@media screen and (max-width: 480px) {
+    .container{
+        background-color: green;
+        color: greenyellow;        
+    }    
+}
+@media screen and (max-width: 320px) {
+    .container{
+        background-color: yellow;
+        color: orange;        
+    }    
+} */
