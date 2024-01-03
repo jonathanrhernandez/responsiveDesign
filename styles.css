@@ -23,7 +23,7 @@ background-color: black;
     background-color: hsl(214.29deg 50% 16.47%);
     border-radius: 15px;
     max-width: 300px;
-    padding: 20px;
+    padding: 20px;    
 }
 .card > img{
     width: 100%;
